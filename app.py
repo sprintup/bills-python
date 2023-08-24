@@ -1,4 +1,5 @@
 import logging
+import pdb
 
 # Choose your logging method:
 # 1. Log to stdout
@@ -10,6 +11,8 @@ logging.basicConfig(level=logging.INFO)
 
 def main():
     logging.info("This is a log message.")
+    some_variable = "Hello World!"
+    pdb.set_trace()
 
 if __name__ == '__main__':
     main()
